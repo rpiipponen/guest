@@ -28,12 +28,10 @@ app.get("/guestbook", (req, res) => {
           </head>
           <body>
           
-          '<a href="/">Palaa etusivulle</a>';
+        '<a href="/">Palaa etusivulle</a>';
 
               <table border="1">
       `;
-
-      results += '<a href="/">Palaa etusivulle</a>';
 
       for (let i = 0; i < messages.length; i++) {
         results +=
